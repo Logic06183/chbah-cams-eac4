@@ -1,0 +1,56 @@
+Rows: 3288 (expected 3288); missing dates: 0; duplicates: 0
+Days with n_fields != 8: 0
+Missing values:
+n_fields          0
+pm25_ugm3_mean    0
+no2_ugm3_mean     0
+co_ugm3_mean      0
+so2_ugm3_mean     0
+pm25_ugm3_max     0
+no2_ugm3_max      0
+co_ugm3_max       0
+so2_ugm3_max      0
+Non-positive values: 0
+
+Distribution (ug/m3):
+                  mean     5%     50%     95%      max
+pm25_ugm3_mean   154.2   33.6   118.5   375.5    722.4
+no2_ugm3_mean     38.0   20.4    35.9    63.5    107.7
+co_ugm3_mean    1456.8  287.1  1029.8  4037.1   6487.9
+so2_ugm3_mean     88.0   32.0    73.5   180.5    241.1
+pm25_ugm3_max    327.7   70.2   277.1   710.1   1410.3
+no2_ugm3_max      75.1   41.4    69.0   128.4    337.4
+co_ugm3_max     3359.7  525.8  2507.0  8776.3  14189.7
+so2_ugm3_max     209.6   65.0   185.5   411.5    552.0
+
+Monthly means:
+      pm25_ugm3_mean  no2_ugm3_mean  co_ugm3_mean  so2_ugm3_mean
+date                                                            
+1               50.0           29.4         426.8           49.3
+2               73.1           31.9         605.7           59.6
+3              120.4           35.8        1073.9           73.3
+4              179.3           38.2        1682.0          105.9
+5              259.8           45.4        2571.7          131.1
+6              287.8           52.6        2842.6          143.8
+7              280.2           51.0        2746.9          141.9
+8              208.9           42.5        1956.4          108.1
+9              159.3           37.9        1461.0           85.3
+10              99.5           33.6         893.8           58.9
+11              71.5           29.7         669.0           48.1
+12              55.7           27.9         505.2           49.8
+
+Annual means:
+      pm25_ugm3_mean  no2_ugm3_mean  co_ugm3_mean  so2_ugm3_mean
+date                                                            
+2016           135.3           35.7        1316.9           87.7
+2017           144.2           36.1        1344.7           85.1
+2018           150.7           36.6        1422.4           84.4
+2019           165.9           39.3        1618.3           95.5
+2020           164.8           38.6        1580.9           91.2
+2021           151.4           36.6        1400.6           85.6
+2022           163.2           39.7        1525.6           90.0
+2023           152.0           39.0        1410.7           85.6
+2024           159.9           40.2        1491.0           87.2
+
+Reference: Johannesburg ground monitors average roughly 25-30 ug/m3 PM2.5 (Zhang et al. 2021, Remote Sens Environ 266:112713). A much higher EAC4 mean points to model bias at this grid cell: report it, do not 'correct' it.
+Expect winter (Jun-Aug) peaks in PM2.5, NO2 and CO in Johannesburg.

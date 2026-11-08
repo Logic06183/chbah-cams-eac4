@@ -1,0 +1,5 @@
+cdsapirc*
+.cdsapirc
+.venv/
+out/
+*.zip

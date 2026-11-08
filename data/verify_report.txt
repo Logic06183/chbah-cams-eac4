@@ -1,0 +1,8 @@
+[C1] raw files readable: 18/18
+[C3] grid cell(s) found independently: [(-26.25, 27.75)]
+[C5] sampled days: 36 across 9 years; max |diff| = 0.0008 ug/m3 -> PASS
+     full-series max |diff| (all days) = 0.0026
+[C7] pm25: Jun-Aug mean 258.7, Dec-Feb mean 59.2 -> winter higher: yes
+[C7] no2: Jun-Aug mean 48.7, Dec-Feb mean 29.6 -> winter higher: yes
+[C7] co: Jun-Aug mean 2511.8, Dec-Feb mean 509.8 -> winter higher: yes
+[C6] PM2.5 2016-2024 mean 154.2 ug/m3 vs ground ref 25-30 -> ratio 5.61x of midpoint
